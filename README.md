@@ -26,7 +26,7 @@ export default async () => {
     Bind(vueState.state, state)
   })
 
-  Vue.prototype.$state = vueState
+  Vue.prototype.$state = vueState.state
 }
 ```
 
