@@ -1,9 +1,9 @@
 # ObservableSchema
-When using `@colyseus/schema` with Vue.js, there is very little integration and things quickly become complex. This package allows you to create an observable state from your room state. Any changes to your room state from the serve will be synchronized and available to your Vue code immediately.
+When using `@colyseus/schema` with Vue.js, there is very little integration and things quickly become complex. This package allows you to create an observable state from your room state. Any changes to your room state from the server will be synchronized and available to your Vue code immediately.
 
 ## Installation
 ```
-> yarn add obserableschema
+> yarn add observableschema
 ```
 
 ## Usage
@@ -39,4 +39,4 @@ export default async () => {
 ```
 
 ## Oddities
-Due to the way Vue Observables seem to integrate with the Vue frontend, you cannot pass a 'whole' observable to the handler. To ensure updates are always captured, ensure you create an observable with a value, then only bind to that value. This is demonstrated in the usage example above.
+Due to the way Vue Observables seem to integrate with the Vue frontend, you cannot pass a 'whole' observable to the handler. To ensure updates are always captured, create an observable with a value and then only bind to that value. This is demonstrated in the usage example above.
