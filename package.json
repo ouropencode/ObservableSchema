@@ -1,0 +1,12 @@
+{
+  "name": "observableschema",
+  "version": "0.1.0",
+  "author": "$ourOpenCode",
+  "main": "./index.js",
+  "dependencies": {
+    "@colyseus/schema": "^0.5.41",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
