@@ -1,5 +1,5 @@
 # ObservableSchema
-When using `@colyseus/schema` with Vue.js, there is very little integration and things quickly become complex. This package allows you to create an observable state form your room state. Any changes to your room state from the serve will be synchronized and available to your Vue code immediately.
+When using `@colyseus/schema` with Vue.js, there is very little integration and things quickly become complex. This package allows you to create an observable state from your room state. Any changes to your room state from the serve will be synchronized and available to your Vue code immediately.
 
 ## Installation
 ```
